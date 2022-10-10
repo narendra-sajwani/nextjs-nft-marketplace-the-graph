@@ -1,11 +1,7 @@
-### 1. Home Page:
- * Show recently listed NFTs
-   * If you own the NFT, you can update the listing
-   * If not, you can buy the NFT
-### 2. Sell Page:
- * You can list your NFT on marketplace
- * Withdraw proceeds
-
+1. Instead of reading the events from Moralis server, we will
+ * Index them with The Graph
+ * Read from The Graph
+ 
 
 
 
