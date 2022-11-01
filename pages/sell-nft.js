@@ -7,6 +7,7 @@ import nftAbi from "../constants/BasicNft.json"
 import nftMarketplaceAbi from "../constants/NftMarketplace.json"
 import { useMoralis, useWeb3Contract } from "react-moralis"
 import networkMapping from "../constants/networkMapping.json"
+import Proceeds from "../components/Proceeds"
 
 export default function Home() {
     const dispatch = useNotification()
@@ -97,6 +98,7 @@ export default function Home() {
                 title="Sell your NFT"
                 id="Main Form"
             />
+            <Proceeds />
         </div>
     )
 }
