@@ -22,6 +22,7 @@ export default function Home() {
     return (
         <div className="container mx-auto">
             <h1 className="py-4 px-4 font-bold text-2xl">Recently Listed</h1>
+            <p className="py-4 px-4 m-2">Click on any to buy or update, if you own it</p>
             <div className="flex flex-wrap">
                 {isWeb3Enabled ? (
                     loading || !listedNfts ? (
